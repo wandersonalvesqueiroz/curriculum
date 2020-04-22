@@ -54,5 +54,7 @@
     "jspdf": "^1.5.3",
     "purgecss-webpack-plugin": "^1.5.0",
     "terser-webpack-plugin": "^2.0.0"
-  }
+  },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
 }
