@@ -19,11 +19,11 @@ const PATHS = {
 const NODE_ENV = process.env.NODE_ENV;
 
 const isDev = () => {
-  return (NODE_ENV === 'development');
+  return (NODE_ENV === 'production');
 };
 
 const setPublicPath = () => {
-  return '/';
+  return isDev() ? '/' : '/bulma-resume-template/';
 };
 
 const setPath = function(folderName) {
