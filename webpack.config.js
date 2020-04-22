@@ -19,7 +19,7 @@ const PATHS = {
 const NODE_ENV = process.env.NODE_ENV;
 
 const isDev = () => {
-  return (NODE_ENV === 'production');
+  return (NODE_ENV === 'development');
 };
 
 const setPublicPath = () => {
