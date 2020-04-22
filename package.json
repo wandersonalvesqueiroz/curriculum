@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mazipan/bulma-resume-template.git"
+    "url": "git+https://github.com/wandersonalvesqueiroz/curriculum.git"
   },
   "keywords": [
     "bulma",
@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/mazipan/bulma-resume-template/issues"
   },
-  "homepage": "https://github.com/mazipan/bulma-resume-template#readme",
+  "homepage": "https://github.com/wandersonalvesqueiroz/curriculum/src/index",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
