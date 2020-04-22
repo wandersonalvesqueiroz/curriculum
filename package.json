@@ -7,7 +7,9 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open",
     "dist": "rimraf ./dist && cross-env NODE_ENV=production webpack --color --progress --hide-modules",
     "publish-demo": "node ./publish-demo.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -54,7 +56,5 @@
     "jspdf": "^1.5.3",
     "purgecss-webpack-plugin": "^1.5.0",
     "terser-webpack-plugin": "^2.0.0"
-  },
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+  }
 }
